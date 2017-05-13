@@ -1,9 +1,7 @@
 import urllib.request
 from html.parser import HTMLParser
 
-
-from html.parser import HTMLParser
-
+#Override and redefine methods from the html parser class
 class ParseContent(HTMLParser):
     def handle_starttag(self, tag, attrs):
         print("Encountered a start tag:", tag)
