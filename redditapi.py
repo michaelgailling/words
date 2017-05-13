@@ -1,5 +1,5 @@
 import urllib.request
-from Parser import ParseContent
+from SourceParser import ParseContent
 
 #Crreate new handler for the parser class
 parser = ParseContent()
