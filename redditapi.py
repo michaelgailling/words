@@ -12,6 +12,7 @@ class ParseContent(HTMLParser):
     def handle_data(self, data):
         print("Encountered some data  :", data)
 
+#Crreate new handler for the parser class
 parser = ParseContent()
 
 
