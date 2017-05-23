@@ -12,3 +12,8 @@ resp = resp.decode('utf8')
 resp = json.loads(resp)
 
 print(json.dumps(resp,indent=4,sort_keys=True))
+
+#print(resp["data"]["children")
+
+for i in resp["data"]["children"]:
+    print(i["data"]["url"])
